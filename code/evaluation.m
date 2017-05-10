@@ -1,8 +1,17 @@
+clc
 % load data
 % load('../results/LightenedCNN_A_lfw.mat');      % model A
 % load('../results/LightenedCNN_B_lfw.mat');      % model B
-load('../results/LightenedCNN_C_lfw.mat');      % model C
-load('lfw_pairs.mat');
+%load('../results/LightenedCNN_C_lfw.mat');      % model C
+%load('C:/zyf/github/face_models/centerloss/lfw_eval_results/face_snapshot_0509_val0.1_batch476_iter_36000.mat');
+load('C:/zyf/github/face_models/centerloss/lfw_eval_results/face_snapshot_0504_val0.15_iter_28000.mat');
+%load('C:/zyf/github/face_models/centerloss/lfw_eval_results/face_snapshot_0505_val0.1_iter_28000.mat');
+%load('C:/zyf/github/face_models/centerloss/lfw_eval_results/face_snapshot_0505_val0.1_iter_50000.mat');
+%load('C:/zyf/github/face_models/centerloss/lfw_eval_results/face_snapshot_0507_val0.1_batch416_iter_50000.mat');
+%load('C:/zyf/github/face_models/centerloss/lfw_eval_results/center_face_model.mat');
+
+%load('lfw_pairs.mat');
+load('lfw_pairs_zyf.mat');
 
 % pos
 for i = 1: length(pos_pair)
